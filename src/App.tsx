@@ -1,8 +1,10 @@
+import { Menu } from "./components/asite-menu";
+
 function App() {
   return (
-    <>
-      <h1 className="text-3xl">Consumindo API</h1>
-    </>
+    <div>
+      <Menu />
+    </div>
   );
 }
 
